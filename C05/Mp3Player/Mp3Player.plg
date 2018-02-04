@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mp3Player - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Mp3Player.res" /i "inc" /d "_DEBUG" /d "_AFXDLL" "D:\个人文件\BOOK\源代码\C05\Mp3Player\inc\Mp3Player.rc"" 
+Creating temporary file "s:\RSP9D3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Mp3Player.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\个人文件\BOOK\源代码\C05\Mp3Player\src\Mp3Player.cpp"
+"D:\个人文件\BOOK\源代码\C05\Mp3Player\src\Mp3PlayerDlg.cpp"
+"D:\个人文件\BOOK\源代码\C05\Mp3Player\src\MyPlayerControl.cpp"
+"D:\个人文件\BOOK\源代码\C05\Mp3Player\src\StdAfx.cpp"
+]
+Creating command line "cl.exe @s:\RSP9D3.tmp" 
+Creating temporary file "s:\RSP9D4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mp3Player.pdb" /debug /machine:I386 /out:"bin/Mp3Player.exe" /pdbtype:sept 
+".\Debug\Mp3Player.obj"
+".\Debug\Mp3PlayerDlg.obj"
+".\Debug\MyPlayerControl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Mp3Player.res"
+]
+Creating command line "link.exe @s:\RSP9D4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Mp3Player.cpp
+Mp3PlayerDlg.cpp
+MyPlayerControl.cpp
+StdAfx.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Mp3Player.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
